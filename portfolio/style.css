@@ -1,3 +1,19 @@
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.1rem;
+}
+.contact-info a {
+  color: #43ea7c;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.contact-info a:hover {
+  color: #2bbf5c;
+  text-decoration: underline;
+}
 
 body {
   margin: 0;

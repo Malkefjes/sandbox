@@ -1,11 +1,9 @@
 .contact-info {
-  display: flex;
-  flex-direction: column;
-  gap: 0rem;
-  font-size: 1.1rem;
+  display: block;
+  font-size: 1.1em;
 }
 .contact-info a {
-  color: #43ea7c;
+  color: #eaeaea;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s;
@@ -17,7 +15,7 @@
 
 body {
   margin: 0;
-  font-family: 'Segoe UI', Arial, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   background: #181c20;
   color: #eaeaea;
 }
@@ -70,7 +68,7 @@ main {
 
 section {
   margin-bottom: 2.5rem;
-  background: #22262b;
+  background: #181c20;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.10);
   padding: 2rem;

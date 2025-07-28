@@ -9,6 +9,7 @@
 body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
     background: var(--primary-bg);
     color: var(--text-color);
 }
@@ -74,20 +75,23 @@ section {
     gap: 1.5rem;
 }
 
+#projects h2 a {
+    color: var(--accent-hover); /* Matches your text color */
+    text-decoration: none; /* Removes the default underline */
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+#projects h2 a:hover {
+    color: var(--text-color); /* Matches your accent hover color */
+}
+
 .project {
     transition: transform 0.2s;
 }
 
-.project:hover {
-    transform: translateY(-5px);
-}
-
 .project h3 {
     color: var(--text-color);
-}
-
-.project h3:hover {
-    color: var(--accent-color);
 }
 
 .contact-info {
@@ -95,7 +99,7 @@ section {
     font-size: 1.1em;
 }
 
-.contact-info a, .social-links a {
+.contact-info a {
     color: var(--text-color);
     text-decoration: none;
     font-weight: 500;
@@ -103,7 +107,7 @@ section {
     margin-right: 1rem;
 }
 
-.contact-info a:hover, .social-links a:hover {
+.contact-info a:hover {
     color: var(--accent-hover);
 }
 

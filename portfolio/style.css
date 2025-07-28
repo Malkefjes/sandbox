@@ -3,26 +3,25 @@
   font-size: 1.1em;
 }
 .contact-info a {
-  color: #eaeaea;
+  color: #E0E0E0;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s;
 }
 .contact-info a:hover {
   color: #2bbf5c;
-  text-decoration: underline;
 }
 
 body {
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
   background: #181c20;
-  color: #eaeaea;
+  color: #E0E0E0;
 }
 
 header {
   background: #16191d;
-  color: #eaeaea;
+  color: #E0E0E0;
   padding: 1.5rem 0;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
@@ -40,24 +39,6 @@ nav h1 {
   color: #43ea7c;
   text-align: center;
   padding: 0rem;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 2rem;
-  margin: 0;
-  padding: 0;
-}
-
-nav a {
-  color: #eaeaea;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.2s;
-}
-nav a:hover {
-  color: #43ea7c;
 }
 
 main {
@@ -80,6 +61,10 @@ section {
   gap: 1.5rem;
 }
 .project h3 {
+  color: #E0E0E0;
+}
+
+.project h3:hover {
   color: #43ea7c;
 }
 
@@ -95,7 +80,7 @@ input, textarea {
   border-radius: 4px;
   font-size: 1rem;
   background: #181c20;
-  color: #eaeaea;
+  color: #E0E0E0;
 }
 input:focus, textarea:focus {
   outline: 2px solid #43ea7c;

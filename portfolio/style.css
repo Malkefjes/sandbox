@@ -76,14 +76,14 @@ section {
 }
 
 #projects h2 a {
-    color: var(--accent-hover); /* Matches your text color */
-    text-decoration: none; /* Removes the default underline */
+    color: var(--accent-hover);
+    text-decoration: none;
     font-weight: 500;
     transition: color 0.2s;
 }
 
 #projects h2 a:hover {
-    color: var(--text-color); /* Matches your accent hover color */
+    color: var(--text-color);
 }
 
 .project {
@@ -120,7 +120,7 @@ form {
 
 input, textarea {
     padding: 0.75rem;
-    border: 1px solid var(--accent-color);
+    border: 0.5px solid var(--accent-color);
     border-radius: 4px;
     font-size: 1rem;
     background: var(--primary-bg);
@@ -128,22 +128,17 @@ input, textarea {
 }
 
 input:focus, textarea:focus {
-    outline: 2px solid var(--accent-color);
+    outline: 1px solid var(--accent-color);
 }
 
 button {
     padding: 0.75rem;
-    background: var(--accent-color);
-    color: var(--primary-bg);
-    border: none;
+    background: var(--primary-bg);
+    color: var(--text-color);
+    border: 1px solid;
     border-radius: 4px;
+    border-color: var(--accent-color);
     font-size: 1rem;
-    cursor: pointer;
-    transition: background 0.2s;
-}
-
-button:hover {
-    background: var(--accent-hover);
 }
 
 footer {

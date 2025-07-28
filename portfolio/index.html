@@ -3,25 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Erik Malkenes, a Full Stack Developer specializing in JavaScript, React, and Node.js">
     <title>Erik Malkenes</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
-        <nav>
+        <nav aria-label="Main navigation">
             <h1>Erik Malkenes</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
-    <main>
+    <main role="main">
         <section id="about">
             <h2>Full Stack Developer</h2>
             <p>JavaScript, Responsive Web Design, React, Node.js / Express</p>
         </section>
         <section id="projects">
-            <h2>Project</h2>
+            <h2>Projects</h2>
             <div class="projects-list">
                 <div class="project">
-                    <h3>Portfolio Website (Current)</h3>
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio built with HTML, CSS, and JavaScript, showcasing responsive design and modern web development practices.</p>
+                    <p><strong>Technologies:</strong> HTML, CSS</p>
+                    <a href="https://github.com/username/portfolio" target="_blank">View on GitHub</a>
                 </div>
             </div>
         </section>
@@ -30,11 +40,27 @@
             <div class="contact-info">
                 <p><strong>Email:</strong> <a href="mailto:erikmartin.malkenes@gmail.com">erikmartin.malkenes@gmail.com</a></p>
                 <p><strong>Phone:</strong> <a href="tel:+4740634646">+47 40 63 46 46</a></p>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/erik-malkenes" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/erik-malkenes" target="_blank">GitHub</a>
+                </div>
             </div>
+            <form action="/submit" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
         </section>
     </main>
     <footer>
-        <p>&copy; 2025 Erik Malkenes. All rights reserved.</p>
+        <p>&copy; <span id="year"></span> Erik Malkenes. All rights reserved.</p>
     </footer>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>

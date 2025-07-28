@@ -30,18 +30,18 @@ header {
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: box;
   max-width: 900px;
   margin: 0 auto;
   padding: 0 1rem;
 }
 
 nav h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   letter-spacing: 1px;
   color: #43ea7c;
+  text-align: center;
+  padding: 0rem;
 }
 
 nav ul {

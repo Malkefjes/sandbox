@@ -87,6 +87,10 @@ section {
 }
 
 .project {
+    border: 1px solid var(--accent-color);
+    border-style: dotted;
+    border-radius: 20px;
+    padding: 1.5rem;
     transition: transform 0.2s;
 }
 

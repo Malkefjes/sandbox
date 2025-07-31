@@ -9,7 +9,7 @@
 body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     background: var(--primary-bg);
     color: var(--text-color);
 }

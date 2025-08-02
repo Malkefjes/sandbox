@@ -3,34 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Erik Malkenes, a Full Stack Developer specializing in JavaScript, React, and Node.js">
-    <title>projects - malkefjes</title>
+    <meta name="description" content="Portfolio of Erik Malkenes, a self-taught data analyst specializing in Python, SQL, Tableau, and Power BI.">
+    <title>Projects - Malkefjes</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-            <h1>malkefjes</h1>
-            <p>responsive web design, javascript, react, node.js / express</p>
+        <h1>Malkefjes</h1>
+        <p>Data, Analytics, Insights</p>
     </header>
     <main>
+        <section id="about">
+            <h2>About</h2>
+            <p>Self-taught data analyst skilled in Python (Pandas, Matplotlib), SQL, Tableau, and Power BI. Dedicated to uncovering actionable insights from data to inform business decisions. Focused on providing clear, data-driven solutions to complex challenges.</p>
+            <h3>Education</h3>
+            <ul>
+                <li><strong>CS50 Python</strong></li>
+                <li><strong>Google Certificate</strong></li>
+            </ul>
+        </section>
         <section id="projects">
-            <h2>projects - <a href="https://github.com/Malkefjes" target="_blank">github</a></h2>
-            <div class="projects-list">
-                <div class="project">
-                    <h3>portfolio website</h3>
-                    <p>personal portfolio built with html and css</p>
-                </div>
+            <h2>Projects - <a href="https://github.com/Malkefjes" target="_blank" rel="noopener noreferrer">GitHub</a></h2>
+            <div class="project-list">
+                <article class="project">
+                    <h3>Retail Sales Trend Analysis (2025)</h3>
+                    <p>Analyzed retail sales data using Pandas and SQL to identify seasonal trends, visualized with a Matplotlib dashboard, revealing a 20% Q2 spike.</p>
+                    <p><strong>Tools:</strong> Python, Pandas, SQL, Matplotlib, Tableau</p>
+                    <p><a href="#" target="_blank" rel="noopener noreferrer">GitHub Link</a></p>
+                    <p><em>Embedded chart / screenshot placeholder</em></p>
+                </article>
+                <article class="project">
+                    <h3>Suggested Projects</h3>
+                    <p>Planned projects to demonstrate skills over a 4–6 month period:</p>
+                    <ul>
+                        <li>CS50 Final Project: Analyze a CSV (e.g., movie ratings averages) with Python, showing data processing and a simple Matplotlib chart.</li>
+                        <li>Google Capstone: Business case study (e.g., customer churn dashboard) using Pandas, SQL, and Tableau.</li>
+                        <li>Kaggle Projects: Titanic survival analysis (bar chart of survival by gender) and Airbnb pricing analysis (line chart of price trends).</li>
+                        <li>Optional: Freelance gig project (e.g., cleaned client data for a small business, visualized in Streamlit).</li>
+                    </ul>
+                    <p><strong>Why:</strong> Projects showcase real-world job skills like data cleaning and visualization. Three strong projects are sufficient; five demonstrate depth.</p>
+                    <p><strong>Polish:</strong> Each project includes a Jupyter Notebook, clean code, and a 200-word README explaining the problem, solution, and insights (e.g., “20% sales spike suggests seasonal marketing”).</p>
+                </article>
             </div>
         </section>
         <section id="contact">
-            <h2>contact</h2>
+            <h2>Contact</h2>
             <div class="contact-info">
-                <p><strong>email:</strong> <a href="mailto:erikmartin.malkenes@gmail.com">erikmartin.malkenes@gmail.com</a></p>
+                <p>
+                    <strong>Email:</strong> <a href="mailto:erikmartin.malkenes@gmail.com">erikmartin.malkenes@gmail.com</a><br>
+                    <strong>LinkedIn:</strong> <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a><br>
+                    <strong>GitHub:</strong> <a href="https://github.com/Malkefjes" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+                </p>
+                <p><strong>Hosting Options:</strong></p>
+                <ul>
+                    <li><strong>GitHub Pages (Recommended):</strong> Host a simple static site using a template (e.g., Minimal or Jekyll Now). Easy to set up with Markdown or HTML, recruiter-friendly.</li>
+                    <li><strong>Streamlit:</strong> Host interactive Python dashboards (e.g., a sales chart) using Streamlit Cloud. Requires minimal Python and adds a “wow” factor for visualizations.</li>
+                </ul>
             </div>
         </section>
     </main>
     <footer>
-        <p>&copy; <span id="year"></span> malkefjes. all rights reserved.</p>
+        <p>&copy; <span id="year"></span> Malkefjes. All rights reserved.</p>
     </footer>
     <script>
         document.getElementById("year").textContent = new Date().getFullYear();

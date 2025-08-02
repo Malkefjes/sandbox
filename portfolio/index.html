@@ -4,69 +4,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio of Erik Malkenes, a self-taught data analyst specializing in Python, SQL, Tableau, and Power BI.">
-    <title>Projects - Malkefjes</title>
+    <title>Erik Malkenes - Data Analyst Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Malkefjes</h1>
-        <p>Data, Analytics, Insights</p>
-    </header>
+    <nav>
+        <div class="nav-container">
+            <h1 class="logo">Malkenes</h1>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Analytics - Data - Insights</h1>
+            <a href="#projects" class="cta-button">Explore My Work</a>
+        </div>
+    </section>
+
     <main>
         <section id="about">
-            <h2>About</h2>
-            <p>Self-taught data analyst skilled in Python (Pandas, Matplotlib), SQL, Tableau, and Power BI. Dedicated to uncovering actionable insights from data to inform business decisions. Focused on providing clear, data-driven solutions to complex challenges.</p>
-            <h3>Education</h3>
+            <h2>About Me</h2>
+            <p>I'm a self-taught data analyst passionate about transforming raw data into actionable insights. Skilled in Python (Pandas, Matplotlib), SQL, Tableau, and Power BI, I specialize in creating clear, data-driven solutions to tackle complex business challenges.</p>
+            <h3>Education & Certifications</h3>
             <ul>
-                <li><strong>CS50 Python</strong></li>
-                <li><strong>Google Certificate</strong></li>
+                <li><strong>CS50 Python</strong> - Harvard University</li>
+                <li><strong>Google Data Analytics Certificate</strong> - Google</li>
             </ul>
         </section>
+
         <section id="projects">
-            <h2>Projects - <a href="https://github.com/Malkefjes" target="_blank" rel="noopener noreferrer">GitHub</a></h2>
+            <h2>Projects</h2>
             <div class="project-list">
-                <article class="project">
-                    <h3>Retail Sales Trend Analysis (2025)</h3>
-                    <p>Analyzed retail sales data using Pandas and SQL to identify seasonal trends, visualized with a Matplotlib dashboard, revealing a 20% Q2 spike.</p>
-                    <p><strong>Tools:</strong> Python, Pandas, SQL, Matplotlib, Tableau</p>
-                    <p><a href="#" target="_blank" rel="noopener noreferrer">GitHub Link</a></p>
-                    <p><em>Embedded chart / screenshot placeholder</em></p>
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>Retail Sales Trend Analysis</h3>
+                        <p>Analyzed retail sales data using Pandas and SQL to identify seasonal trends, visualized with a Matplotlib dashboard, revealing a 20% Q2 spike.</p>
+                        <p><strong>Tools:</strong> Python, Pandas, SQL, Matplotlib, Tableau</p>
+                        <hr class="project-line">
+                        <a href="https://github.com/Malkefjes/retail-sales" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                    </div>
                 </article>
-                <article class="project">
-                    <h3>Suggested Projects</h3>
-                    <p>Planned projects to demonstrate skills over a 4–6 month period:</p>
-                    <ul>
-                        <li>CS50 Final Project: Analyze a CSV (e.g., movie ratings averages) with Python, showing data processing and a simple Matplotlib chart.</li>
-                        <li>Google Capstone: Business case study (e.g., customer churn dashboard) using Pandas, SQL, and Tableau.</li>
-                        <li>Kaggle Projects: Titanic survival analysis (bar chart of survival by gender) and Airbnb pricing analysis (line chart of price trends).</li>
-                        <li>Optional: Freelance gig project (e.g., cleaned client data for a small business, visualized in Streamlit).</li>
-                    </ul>
-                    <p><strong>Why:</strong> Projects showcase real-world job skills like data cleaning and visualization. Three strong projects are sufficient; five demonstrate depth.</p>
-                    <p><strong>Polish:</strong> Each project includes a Jupyter Notebook, clean code, and a 200-word README explaining the problem, solution, and insights (e.g., “20% sales spike suggests seasonal marketing”).</p>
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>Titanic Survival Analysis</h3>
+                        <p>Explored Kaggle's Titanic dataset to analyze survival rates by gender and class, visualized with Matplotlib bar charts and Tableau dashboards.</p>
+                        <p><strong>Tools:</strong> Python, Pandas, Matplotlib, Tableau</p>
+                        <hr class="project-line">
+                        <a href="https://github.com/Malkefjes/titanic-analysis" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>Airbnb Pricing Trends</h3>
+                        <p>Investigated Airbnb pricing data to uncover seasonal price trends, using Pandas for data cleaning and Streamlit for interactive visualizations.</p>
+                        <p><strong>Tools:</strong> Python, Pandas, Streamlit</p>
+                        <hr class="project-line">
+                        <a href="https://github.com/Malkefjes/airbnb-pricing" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                    </div>
                 </article>
             </div>
         </section>
+
         <section id="contact">
             <h2>Contact</h2>
-            <div class="contact-info">
-                <p>
-                    <strong>Email:</strong> <a href="mailto:erikmartin.malkenes@gmail.com">erikmartin.malkenes@gmail.com</a><br>
-                    <strong>LinkedIn:</strong> <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a><br>
-                    <strong>GitHub:</strong> <a href="https://github.com/Malkefjes" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
-                </p>
-                <p><strong>Hosting Options:</strong></p>
-                <ul>
-                    <li><strong>GitHub Pages (Recommended):</strong> Host a simple static site using a template (e.g., Minimal or Jekyll Now). Easy to set up with Markdown or HTML, recruiter-friendly.</li>
-                    <li><strong>Streamlit:</strong> Host interactive Python dashboards (e.g., a sales chart) using Streamlit Cloud. Requires minimal Python and adds a “wow” factor for visualizations.</li>
-                </ul>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p><strong>Email:</strong> <a href="mailto:erikmartin.malkenes@gmail.com">erikmartin.malkenes@gmail.com</a></p>
+                    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/erikmalkenes" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/Malkefjes" target="_blank" rel="noopener noreferrer">GitHub Profile</a></p>
+                    <p><a href="/resume.pdf" class="cta-button" download>Resume</a></p>
+                </div>
+                <div class="contact-form">
+                    <h3>Get in Touch</h3>
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="button" class="cta-button">Send Message</button>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; <span id="year"></span> Malkefjes. All rights reserved.</p>
+        <div class="footer-content">
+            <p>&copy; <span id="year"></span> Erik Malkenes. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/Malkefjes" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://linkedin.com/in/erikmalkenes" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </div>
     </footer>
+
     <script>
+        // Update year in footer
         document.getElementById("year").textContent = new Date().getFullYear();
+
+        // Smooth scrolling for nav links
+        document.querySelectorAll('.nav-link').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                targetElement.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+
+        // Mobile menu toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
     </script>
 </body>
 </html>

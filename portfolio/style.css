@@ -101,7 +101,7 @@ nav {
     background: var(--primary-bg);
     color: var(--primary-bg);
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 6px;
     font-weight: 600;
     transition: background 0.3s ease;
     font-size: 30px;
